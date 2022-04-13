@@ -9,9 +9,8 @@
 #container{
     min-width: 450px;
     position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
+    top: 10%;
+    left: 35%;
     padding: 70px 80px;
     padding-right: 20px;
     border: 8px solid #374151;
