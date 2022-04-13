@@ -1,0 +1,84 @@
+* {
+	font-family: "Fira sans", sans-serif;
+    background-color:#6B7280;
+}
+:root {
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+}
+#container{
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 70px 80px;
+    padding-right: 20px;
+    border: 8px solid #374151;
+    justify-content: center;
+}
+#newtask input{
+    width: 240px;
+    height: 30px;
+    background-color: #374151;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+#push{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    color:white;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+
+}
+#tasks{
+    background-color: #374151;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 340px;
+    box-shadow: 0 15px 30px rgba(178, 119, 182);
+   
+}
+.delete{
+    width: 15%;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    background: none;
+    color: #D33B3B;
+   
+}
+.delete i {
+   background: none;
+   font-size: 30px;
+}
+
+.task{
+    background-color:  #374151;
+    height: 20px;
+    padding: 3px 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #6B7280;
+    cursor: pointer;
+}
+.task span{
+    font-size: 25px;
+    background: none;
+    color: white;
+}
+
+.fa-duotone{
+    color: #D33B3B;
+}
